@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>57056edb0c644bb2aaeeff8809c151ff</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="project-investigate-a-tmdb-10000-movie-dataset" class="cell markdown">
+<h1>Project: Investigate a TMDb 10000 movie dataset</h1>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#wrangling">Data Wrangling</a></li>
+<li><a href="#eda">Exploratory Data Analysis</a></li>
+<li><a href="#conclusions">Conclusions</a></li>
+</ul>
+</section>
+<div class="cell markdown">
+<p><a id='intro'></a></p>
+<h2 id="introduction">Introduction</h2>
+<h3 id="dataset-description">Dataset Description</h3>
+<blockquote>
+<p>In this project,I will analyze a movie data set to discover more information regarding its contents.This data set contains information about 10,000 movies collected from The Movie Database (TMDb), including user ratings and revenue.The end goal is to conduct investigative tests and document conclusions regarding the results</p>
+</blockquote>
+<h3 id="questions-for-analysis">Questions for Analysis</h3>
+<p>Some of the questions to be investigated include : <br></p>
+<p>1)What is the number of movies produced per year. <br> 2)What is the most popular movie. <br> 3)What properties are associatd with movies that have high revenues. <br></p>
+</div>
+<div class="cell code" data-execution_count="75">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Use this cell to set up import statements for all of the packages that you</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#   plan to use.</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># &#39;magic word&#39; so that visualizations are plotted</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><a id='wrangling'></a></p>
+<h2 id="data-wrangling">Data Wrangling</h2>
+<p>In this section,I am going to upload and display the data and perform operations to inspect and clean the movie data</p>
+<h3 id="general-properties">General Properties</h3>
+<p>Uploading and displaying a few rows of the data.</p>
+</div>
+<div class="cell code" data-execution_count="76">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the data set using pandas</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&#39;tmdb_movies.csv&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="77">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Display a few rows of the data set</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="77">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>imdb_id</th>
+      <th>popularity</th>
+      <th>budget</th>
+      <th>revenue</th>
+      <th>original_title</th>
+      <th>cast</th>
+      <th>homepage</th>
+      <th>director</th>
+      <th>tagline</th>
+      <th>...</th>
+      <th>overview</th>
+      <th>runtime</th>
+      <th>genres</th>
+      <th>production_companies</th>
+      <th>release_date</th>
+      <th>vote_count</th>
+      <th>vote_average</th>
+      <th>release_year</th>
+      <th>budget_adj</th>
+      <th>revenue_adj</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>135397</td>
+      <td>tt0369610</td>
+      <td>32.985763</td>
+      <td>150000000</td>
+      <td>1513528810</td>
+      <td>Jurassic World</td>
+      <td>Chris Pratt|Bryce Dallas Howard|Irrfan Khan|Vi...</td>
+      <td>http://www.jurassicworld.com/</td>
+      <td>Colin Trevorrow</td>
+      <td>The park is open.</td>
+      <td>...</td>
+      <td>Twenty-two years after the events of Jurassic ...</td>
+      <td>124</td>
+      <td>Action|Adventure|Science Fiction|Thriller</td>
+      <td>Universal Studios|Amblin Entertainment|Legenda...</td>
+      <td>6/9/15</td>
+      <td>5562</td>
+      <td>6.5</td>
+      <td>2015</td>
+      <td>1.379999e+08</td>
+      <td>1.392446e+09</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>76341</td>
+      <td>tt1392190</td>
+      <td>28.419936</td>
+      <td>150000000</td>
+      <td>378436354</td>
+      <td>Mad Max: Fury Road</td>
+      <td>Tom Hardy|Charlize Theron|Hugh Keays-Byrne|Nic...</td>
+      <td>http://www.madmaxmovie.com/</td>
+      <td>George Miller</td>
+      <td>What a Lovely Day.</td>
+      <td>...</td>
+      <td>An apocalyptic story set in the furthest reach...</td>
+      <td>120</td>
+      <td>Action|Adventure|Science Fiction|Thriller</td>
+      <td>Village Roadshow Pictures|Kennedy Miller Produ...</td>
+      <td>5/13/15</td>
+      <td>6185</td>
+      <td>7.1</td>
+      <td>2015</td>
+      <td>1.379999e+08</td>
+      <td>3.481613e+08</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>262500</td>
+      <td>tt2908446</td>
+      <td>13.112507</td>
+      <td>110000000</td>
+      <td>295238201</td>
+      <td>Insurgent</td>
+      <td>Shailene Woodley|Theo James|Kate Winslet|Ansel...</td>
+      <td>http://www.thedivergentseries.movie/#insurgent</td>
+      <td>Robert Schwentke</td>
+      <td>One Choice Can Destroy You</td>
+      <td>...</td>
+      <td>Beatrice Prior must confront her inner demons ...</td>
+      <td>119</td>
+      <td>Adventure|Science Fiction|Thriller</td>
+      <td>Summit Entertainment|Mandeville Films|Red Wago...</td>
+      <td>3/18/15</td>
+      <td>2480</td>
+      <td>6.3</td>
+      <td>2015</td>
+      <td>1.012000e+08</td>
+      <td>2.716190e+08</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>140607</td>
+      <td>tt2488496</td>
+      <td>11.173104</td>
+      <td>200000000</td>
+      <td>2068178225</td>
+      <td>Star Wars: The Force Awakens</td>
+      <td>Harrison Ford|Mark Hamill|Carrie Fisher|Adam D...</td>
+      <td>http://www.starwars.com/films/star-wars-episod...</td>
+      <td>J.J. Abrams</td>
+      <td>Every generation has a story.</td>
+      <td>...</td>
+      <td>Thirty years after defeating the Galactic Empi...</td>
+      <td>136</td>
+      <td>Action|Adventure|Science Fiction|Fantasy</td>
+      <td>Lucasfilm|Truenorth Productions|Bad Robot</td>
+      <td>12/15/15</td>
+      <td>5292</td>
+      <td>7.5</td>
+      <td>2015</td>
+      <td>1.839999e+08</td>
+      <td>1.902723e+09</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>168259</td>
+      <td>tt2820852</td>
+      <td>9.335014</td>
+      <td>190000000</td>
+      <td>1506249360</td>
+      <td>Furious 7</td>
+      <td>Vin Diesel|Paul Walker|Jason Statham|Michelle ...</td>
+      <td>http://www.furious7.com/</td>
+      <td>James Wan</td>
+      <td>Vengeance Hits Home</td>
+      <td>...</td>
+      <td>Deckard Shaw seeks revenge against Dominic Tor...</td>
+      <td>137</td>
+      <td>Action|Crime|Thriller</td>
+      <td>Universal Pictures|Original Film|Media Rights ...</td>
+      <td>4/1/15</td>
+      <td>2947</td>
+      <td>7.3</td>
+      <td>2015</td>
+      <td>1.747999e+08</td>
+      <td>1.385749e+09</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 21 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="78">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Display the number of rows and columns</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>df.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="78">
+<pre><code>(10866, 21)</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The data set has 10866 rows and 21 columns</p>
+</div>
+<div class="cell code" data-execution_count="79" data-scrolled="true">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Display the details of the columns</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="79">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>popularity</th>
+      <th>budget</th>
+      <th>revenue</th>
+      <th>runtime</th>
+      <th>vote_count</th>
+      <th>vote_average</th>
+      <th>release_year</th>
+      <th>budget_adj</th>
+      <th>revenue_adj</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>10866.000000</td>
+      <td>10866.000000</td>
+      <td>1.086600e+04</td>
+      <td>1.086600e+04</td>
+      <td>10866.000000</td>
+      <td>10866.000000</td>
+      <td>10866.000000</td>
+      <td>10866.000000</td>
+      <td>1.086600e+04</td>
+      <td>1.086600e+04</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>66064.177434</td>
+      <td>0.646441</td>
+      <td>1.462570e+07</td>
+      <td>3.982332e+07</td>
+      <td>102.070863</td>
+      <td>217.389748</td>
+      <td>5.974922</td>
+      <td>2001.322658</td>
+      <td>1.755104e+07</td>
+      <td>5.136436e+07</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>92130.136561</td>
+      <td>1.000185</td>
+      <td>3.091321e+07</td>
+      <td>1.170035e+08</td>
+      <td>31.381405</td>
+      <td>575.619058</td>
+      <td>0.935142</td>
+      <td>12.812941</td>
+      <td>3.430616e+07</td>
+      <td>1.446325e+08</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>5.000000</td>
+      <td>0.000065</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>10.000000</td>
+      <td>1.500000</td>
+      <td>1960.000000</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>10596.250000</td>
+      <td>0.207583</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>90.000000</td>
+      <td>17.000000</td>
+      <td>5.400000</td>
+      <td>1995.000000</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>20669.000000</td>
+      <td>0.383856</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>99.000000</td>
+      <td>38.000000</td>
+      <td>6.000000</td>
+      <td>2006.000000</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>75610.000000</td>
+      <td>0.713817</td>
+      <td>1.500000e+07</td>
+      <td>2.400000e+07</td>
+      <td>111.000000</td>
+      <td>145.750000</td>
+      <td>6.600000</td>
+      <td>2011.000000</td>
+      <td>2.085325e+07</td>
+      <td>3.369710e+07</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>417859.000000</td>
+      <td>32.985763</td>
+      <td>4.250000e+08</td>
+      <td>2.781506e+09</td>
+      <td>900.000000</td>
+      <td>9767.000000</td>
+      <td>9.200000</td>
+      <td>2015.000000</td>
+      <td>4.250000e+08</td>
+      <td>2.827124e+09</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+
+</div>
+<div class="cell code" data-execution_count="80" data-scrolled="true">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Display data types and missing values</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 10866 entries, 0 to 10865
+Data columns (total 21 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   id                    10866 non-null  int64  
+ 1   imdb_id               10856 non-null  object 
+ 2   popularity            10866 non-null  float64
+ 3   budget                10866 non-null  int64  
+ 4   revenue               10866 non-null  int64  
+ 5   original_title        10866 non-null  object 
+ 6   cast                  10790 non-null  object 
+ 7   homepage              2936 non-null   object 
+ 8   director              10822 non-null  object 
+ 9   tagline               8042 non-null   object 
+ 10  keywords              9373 non-null   object 
+ 11  overview              10862 non-null  object 
+ 12  runtime               10866 non-null  int64  
+ 13  genres                10843 non-null  object 
+ 14  production_companies  9836 non-null   object 
+ 15  release_date          10866 non-null  object 
+ 16  vote_count            10866 non-null  int64  
+ 17  vote_average          10866 non-null  float64
+ 18  release_year          10866 non-null  int64  
+ 19  budget_adj            10866 non-null  float64
+ 20  revenue_adj           10866 non-null  float64
+dtypes: float64(4), int64(6), object(11)
+memory usage: 1.7+ MB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>From the above display,there are several missing values in a number of rows of the data set</p>
+</div>
+<div class="cell code" data-execution_count="81">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot histograms to show various spreads of the data</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>df.hist(figsize <span class="op">=</span> (<span class="dv">13</span>, <span class="dv">13</span>), bins<span class="op">=</span><span class="dv">30</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="81">
+<pre><code>array([[&lt;AxesSubplot:title={&#39;center&#39;:&#39;id&#39;}&gt;,
+        &lt;AxesSubplot:title={&#39;center&#39;:&#39;popularity&#39;}&gt;,
+        &lt;AxesSubplot:title={&#39;center&#39;:&#39;budget&#39;}&gt;],
+       [&lt;AxesSubplot:title={&#39;center&#39;:&#39;revenue&#39;}&gt;,
+        &lt;AxesSubplot:title={&#39;center&#39;:&#39;runtime&#39;}&gt;,
+        &lt;AxesSubplot:title={&#39;center&#39;:&#39;vote_count&#39;}&gt;],
+       [&lt;AxesSubplot:title={&#39;center&#39;:&#39;vote_average&#39;}&gt;,
+        &lt;AxesSubplot:title={&#39;center&#39;:&#39;release_year&#39;}&gt;,
+        &lt;AxesSubplot:title={&#39;center&#39;:&#39;budget_adj&#39;}&gt;],
+       [&lt;AxesSubplot:title={&#39;center&#39;:&#39;revenue_adj&#39;}&gt;, &lt;AxesSubplot:&gt;,
+        &lt;AxesSubplot:&gt;]], dtype=object)</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_52e8e55922f549c4b5d0c636121a29d8/01e2941659dae6e399cf533567e373752cdbbc40.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="82">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#To determine the number of zero-value popularity columns</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>df1 <span class="op">=</span> df[df[<span class="st">&#39;popularity&#39;</span>]<span class="op">==</span><span class="dv">0</span>]</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>df1.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="82">
+<pre><code>(0, 21)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="83">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Determine the number of zero-value revenue columns</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>df2 <span class="op">=</span> df[df[<span class="st">&#39;revenue&#39;</span>]<span class="op">==</span><span class="dv">0</span>]</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>df2.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="83">
+<pre><code>(6016, 21)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="84">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#To determine the number of zero-value budget columns</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>df3 <span class="op">=</span> df[df[<span class="st">&#39;budget&#39;</span>]<span class="op">==</span><span class="dv">0</span>]</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>df3.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="84">
+<pre><code>(5696, 21)</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>From the above probe,it is observed that there are : <br></p>
+<ul>
+<li>0 columns with zero-value popularity <br></li>
+<li>6016 columns with zero-value revenue <br></li>
+<li>5692 columns with zero-value budget <br></li>
+</ul>
+</div>
+<section id="data-cleaning" class="cell markdown">
+<h3>Data Cleaning</h3>
+<p>At ths stage, the data will be filtered to remove duplicate values, columns that are not required and rows with zero values in the budget and revenue columns</p>
+<p>The columns that do not required are : id,cast, director, imdb_id, vote_count, vote_average, budget_adj, revenue_adj, tagline, keywords, overview, production_companies and homepage</p>
+</section>
+<div class="cell code" data-execution_count="85">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Drop unnecessary columns</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>df.drop([<span class="st">&#39;id&#39;</span>, <span class="st">&#39;imdb_id&#39;</span>, <span class="st">&#39;vote_count&#39;</span>, <span class="st">&#39;vote_average&#39;</span>,<span class="st">&#39;cast&#39;</span>,<span class="st">&#39;director&#39;</span>, <span class="st">&#39;budget_adj&#39;</span>, <span class="st">&#39;revenue_adj&#39;</span>, <span class="st">&#39;tagline&#39;</span>,  <span class="st">&#39;keywords&#39;</span>, <span class="st">&#39;overview&#39;</span>, <span class="st">&#39;production_companies&#39;</span>, <span class="st">&#39;homepage&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="86">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Check the remaining columns</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="86">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>popularity</th>
+      <th>budget</th>
+      <th>revenue</th>
+      <th>original_title</th>
+      <th>runtime</th>
+      <th>genres</th>
+      <th>release_date</th>
+      <th>release_year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>32.985763</td>
+      <td>150000000</td>
+      <td>1513528810</td>
+      <td>Jurassic World</td>
+      <td>124</td>
+      <td>Action|Adventure|Science Fiction|Thriller</td>
+      <td>6/9/15</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>28.419936</td>
+      <td>150000000</td>
+      <td>378436354</td>
+      <td>Mad Max: Fury Road</td>
+      <td>120</td>
+      <td>Action|Adventure|Science Fiction|Thriller</td>
+      <td>5/13/15</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>13.112507</td>
+      <td>110000000</td>
+      <td>295238201</td>
+      <td>Insurgent</td>
+      <td>119</td>
+      <td>Adventure|Science Fiction|Thriller</td>
+      <td>3/18/15</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>11.173104</td>
+      <td>200000000</td>
+      <td>2068178225</td>
+      <td>Star Wars: The Force Awakens</td>
+      <td>136</td>
+      <td>Action|Adventure|Science Fiction|Fantasy</td>
+      <td>12/15/15</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9.335014</td>
+      <td>190000000</td>
+      <td>1506249360</td>
+      <td>Furious 7</td>
+      <td>137</td>
+      <td>Action|Crime|Thriller</td>
+      <td>4/1/15</td>
+      <td>2015</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="87">
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Check data types</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>df.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="87">
+<pre><code>popularity        float64
+budget              int64
+revenue             int64
+original_title     object
+runtime             int64
+genres             object
+release_date       object
+release_year        int64
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>From the displayed data types,there is a need to convert the release date format to datetime format</p>
+</div>
+<div class="cell code" data-execution_count="88">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Convert the data formats</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;release_date&#39;</span>] <span class="op">=</span> pd.to_datetime(df[<span class="st">&#39;release_date&#39;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="89">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Check the change in release_date format</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>df.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="89">
+<pre><code>popularity               float64
+budget                     int64
+revenue                    int64
+original_title            object
+runtime                    int64
+genres                    object
+release_date      datetime64[ns]
+release_year               int64
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="90">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Next up,check for duplicated data</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>df.duplicated().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="90">
+<pre><code>1</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>There is 1 row of duplicated data.This row should be dropped</p>
+</div>
+<div class="cell code" data-execution_count="91">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Drop the duplicates</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>df.drop_duplicates(inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="92">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Check that the duplicated data has been dropped</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>df.duplicated().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="92">
+<pre><code>0</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="93">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Check for null values</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="93">
+<pre><code>popularity         0
+budget             0
+revenue            0
+original_title     0
+runtime            0
+genres            23
+release_date       0
+release_year       0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>There are null row values in the cast,director and genres columns. These rows need to be removed</p>
+</div>
+<div class="cell code" data-execution_count="94">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Remove the null values</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>df.dropna(inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="95">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Check that the null value rows have been removed</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="95">
+<pre><code>popularity        0
+budget            0
+revenue           0
+original_title    0
+runtime           0
+genres            0
+release_date      0
+release_year      0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The data has now been cleaned and is ready for further analysis</p>
+</div>
+<div class="cell markdown">
+<p><a id='eda'></a></p>
+<h2 id="exploratory-data-analysis">Exploratory Data Analysis</h2>
+<p>The data has now been cleaned and is now ready for further analysis. In this stage of the project,deep analyzation and visualization of the data is undertaken</p>
+<h3 id="research-question-1--what-is-the-number-of-movies-per-year">Research Question 1 : What is the number of movies per year</h3>
+</div>
+<div class="cell code" data-execution_count="96">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Determine the number of movies per year</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;release_year&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="96">
+<pre><code>2014    699
+2013    656
+2015    627
+2012    584
+2011    540
+2009    531
+2008    495
+2010    487
+2007    438
+2006    408
+2005    363
+2004    307
+2003    281
+2002    266
+2001    241
+2000    226
+1999    224
+1998    210
+1996    203
+1997    192
+1994    184
+1993    178
+1995    174
+1988    145
+1989    136
+1991    133
+1992    133
+1990    132
+1987    125
+1986    121
+1985    109
+1984    105
+1981     82
+1982     81
+1983     80
+1980     78
+1978     65
+1977     57
+1979     57
+1973     55
+1971     55
+1976     47
+1974     46
+1966     46
+1975     44
+1964     42
+1967     40
+1970     40
+1972     40
+1968     39
+1965     35
+1963     34
+1960     32
+1962     32
+1961     31
+1969     31
+Name: release_year, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="97" data-scrolled="false">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot a bar graph to show the number of movies released per year</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;release_year&#39;</span>].value_counts().plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>, figsize <span class="op">=</span> (<span class="dv">13</span>, <span class="dv">13</span>))<span class="op">;</span></span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_52e8e55922f549c4b5d0c636121a29d8/d09b4a832aa5dc9dfdb334f00834e8d306db1ffb.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The bar chart above show the distribution of the number of movies per year. 2014 was the year with the most movies released (682) and the year 1930 had the least number of movies released(30) in the data set.</p>
+</div>
+<section id="research-question-2--what-is-the-most-popular-movie-" class="cell markdown">
+<h3>Research Question 2 : What is the most popular movie ?</h3>
+</section>
+<div class="cell code" data-execution_count="98" data-scrolled="true">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Check for the most popular movie</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>df[df[<span class="st">&#39;popularity&#39;</span>].<span class="bu">max</span>() <span class="op">==</span> df[<span class="st">&#39;popularity&#39;</span>]]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="98">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>popularity</th>
+      <th>budget</th>
+      <th>revenue</th>
+      <th>original_title</th>
+      <th>runtime</th>
+      <th>genres</th>
+      <th>release_date</th>
+      <th>release_year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>32.985763</td>
+      <td>150000000</td>
+      <td>1513528810</td>
+      <td>Jurassic World</td>
+      <td>124</td>
+      <td>Action|Adventure|Science Fiction|Thriller</td>
+      <td>2015-06-09</td>
+      <td>2015</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>The most popular movie by popularity is Jurassic world that was released in 2015</p>
+</div>
+<section id="research-question-3--what-properties-associated-with-movies-that-have-high-revenues" class="cell markdown">
+<h3>Research Question 3 : What properties associated with movies that have high revenues</h3>
+</section>
+<div class="cell code" data-execution_count="99">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare a scatter plot to study the relationship between different variables and revenue.</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> scatterFunc(df,x,y):</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>    df.plot(x<span class="op">=</span>x,y<span class="op">=</span>y, kind<span class="op">=</span><span class="st">&#39;scatter&#39;</span>,figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">10</span>))</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">&#39;Relationship between </span><span class="sc">{0}</span><span class="st"> and </span><span class="sc">{1}</span><span class="st">&#39;</span>.<span class="bu">format</span>(x,y))</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(x)</span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(y)<span class="op">;</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="100" data-scrolled="false">
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare a scatter plot to study the relationship between runtime and revenue</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>scatterFunc(df,<span class="st">&#39;popularity&#39;</span>,<span class="st">&#39;revenue&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_52e8e55922f549c4b5d0c636121a29d8/fe304da098f12b12d4a4adbe7eaa09a5602c5237.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>From the plot above, there is no clear symbiotic relationship between popularity and the revenue generated by the movies.</p>
+</div>
+<div class="cell code" data-execution_count="101" data-scrolled="false">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare a scatter plot to study the relationship between runtime and revenue.</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>scatterFunc(df,<span class="st">&#39;budget&#39;</span>,<span class="st">&#39;revenue&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_52e8e55922f549c4b5d0c636121a29d8/74aaaed1d8021a0b80e234df24967463f9020d3f.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>From the above scatter plot,there is a positive relationship between the budget and the revenue generated by the movies in the data set. There is an upward trent in the scatter plots which leads us to believe that an increased budget results in an increse in the revenue that a movie generates.</p>
+</div>
+<div class="cell code" data-execution_count="102" data-scrolled="false">
+<div class="sourceCode" id="cb41"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare a scatter plot to study the relationship between runtime and revenue.</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>scatterFunc(df,<span class="st">&#39;runtime&#39;</span>,<span class="st">&#39;revenue&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_52e8e55922f549c4b5d0c636121a29d8/4376cc477a40cc68bb37e67ddc5df29a699bcc30.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>From the above plot diagram,it can be seen that there is a positive trend between the runtime and the revenue generated by the movies. Movies with a runstime of betweeen 100 minutes and 140 minutes generate more revenue than movies that are outside these time limits.</p>
+</div>
+<div class="cell markdown">
+<p><a id='conclusions'></a></p>
+<h2 id="conclusions">Conclusions</h2>
+<p>After conducting investigations, the most popular movie in the data set time frame has been identified, as well as the number of movies released per year. The positive relationship between movie budget,runtime and the revenue generated has been observed</p>
+<h3 id="limitation">Limitation</h3>
+<p>The removal of null value rows prevents us from completely accurately breaking this data down.</p>
+</div>
+<div class="cell code" data-execution_count="103">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> subprocess <span class="im">import</span> call</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>call([<span class="st">&#39;python&#39;</span>, <span class="st">&#39;-m&#39;</span>, <span class="st">&#39;nbconvert&#39;</span>, <span class="st">&#39;Investigate_a_Dataset.ipynb&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="103">
+<pre><code>4294967295</code></pre>
+</div>
+</div>
+</body>
+</html>
